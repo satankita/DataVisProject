@@ -1,0 +1,47 @@
+body {
+ margin: 10px; 
+ overflow: hidden;
+}
+
+.myDiv {
+  border: 1px outset gray;
+  background-color: lightblue;    
+  text-align: center;
+}
+.svg-div{
+    max-width: 960px;
+    margin: auto;
+}
+
+rect {
+  fill: steelblue
+}
+
+text {
+  font-family: sans-srif;
+  text-anchor: middle;
+}
+
+.Country_Data {
+  font-size: 1.3em;
+  width: 750px;
+  margin-left: 140px;
+}
+  
+.tick text {
+  font-size: 2.0em;
+  fill: #635F5D;
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.axis-label {
+  font-size: 4em;
+  fill: #8E8883;
+}
+.title {
+  font-size: 2.5em;
+  fill: #635F5D;
+}

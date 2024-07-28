@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Making a Bar Chart</title>
+   <link rel="stylesheet" href="./project.css">
+   <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+   <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+  </head>
+
+ <body>
+
+<div width="960" class="umyDiv">
+  <h2 style="text-align: left">Gross Nation Income (GNI) Males vs. Females </h2>
+</div>
+  <hr>
+<div id="message" class="Country_Message">
+   <text>Although the income ratio between males and females do not have a direct correlation to the economic development status of a country, generally, most of the developed countries have a ratio around 1.5 or less. There are exceptions to this, where some developed countries have a ratio less than 1.5, mostly due to cultural reasons.</text>
+   <text>While most of the developing countries have a ratio higher than 2, there are exceptions with some developing countries having a ratio around 1.2, but this is more indicative of the factors contributing to weaker economic conditions.</text>
+   <br>
+   <text>Following is income charts (in US dollars) for example countries from both groups. Click Next Screen to move forward.</text>
+  <hr>
+</div>
+<div width=200px id="countryType" class="CountryData">
+  <h3 style="text-align: left"></h3>
+</div>
+<div width=200px id="Country_Data" class="Country_Data">
+   <br>
+   <text></text>
+   <br>
+   <br>
+</div>
+<div id="svg-div" class="svg-div">
+    <svg width="960" height="500"></svg>
+</div>
+<div width="960" class="umyDiv">
+   <br>
+   <br>
+   <br>
+  <p> Data Source: UNDP, Human Development Report (2024)  
+      <br>
+      https://ourworldindata.org/grapher/gross-national-income-per-capita-males-vs-females </p>
+</div>
+    <script type="module" src="project.js"></script>
+
+</body>
+</html>
